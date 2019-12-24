@@ -1,8 +1,7 @@
 'use strict'
 
 require('dotenv').config()
-const { wrapContext } = require('./context')
-const { routes: diets } = require('./diet/routes')
+const { wrapContext } = require('../src/context')
 
 const context = wrapContext()
 

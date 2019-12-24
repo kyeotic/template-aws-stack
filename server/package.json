@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "lambda-zipper build -f airtable diet *.js -r -o ../build/server.zip"
+    "build": "lambda-zipper build -f src -o ../build/server.zip"
   },
   "author": "",
   "license": "ISC",
