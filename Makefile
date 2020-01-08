@@ -1,4 +1,4 @@
-.PHONY: help client server
+.PHONY: help client server all destroy encode-env
 
 HELP_FUNC = \
     %help; \
@@ -27,3 +27,6 @@ all: server client ## Deploy everything
 
 destroy:
 	./scripts/destroy.sh
+
+encode-env:
+	./scripts/encode-env.sh
