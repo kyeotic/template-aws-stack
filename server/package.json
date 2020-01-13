@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"{src,test}/**/*.js\"",
     "build": "lambda-zipper build -f src -o ../build/server.zip"
   },
   "author": "",
@@ -21,7 +22,10 @@
     "request-micro": "^1.5.1"
   },
   "devDependencies": {
+    "@kyeotic/eslint-config": "^1.0.2",
+    "chokidar-cli": "^2.1.0",
     "dotenv": "^7.0.0",
+    "eslint": "^5.16.0",
     "lambda-zipper": "^0.4.1"
   }
 }
